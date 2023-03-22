@@ -6,8 +6,6 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-aiohttp = "*"
-backoff = "*"
+aiohttp = "==3.6.2"
+backoff = "==1.10.0"
 
-[requires]
-python_version = "3.8.3"
